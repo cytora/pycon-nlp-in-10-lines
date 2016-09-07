@@ -1,13 +1,13 @@
 ### PyCon UK 2016 
-![NLP in 10 Lines of Code](http://i.imgur.com/TuusTAm.png)
+![NLP in 10 Lines of Code](images/displacy_title.png)
 # Natural Language Processing in 10 Lines of Code
 ##### from Andraz Hribernik, Matic Horvat, Aeneas Wiener, Tom Sherborne
 
-At [Cytora](www.cytora.com) we use NLP to extract and analyse plain text to build our structured information product.
+At [Cytora](http://www.cytora.com) we use NLP to extract and analyse plain text to build our structured information product.
 
-This is the repo for [our talk at PyCon UK](http://2016.pyconuk.org/workshops/natural-language-processing-in-10-lines-of-code/).
+This is the repo for [our workshop at PyCon UK](http://2016.pyconuk.org/workshops/natural-language-processing-in-10-lines-of-code/).
 In this repository you will find the step by step tutorial from the workshop on some basic Natural Language Processing tasks using [spaCy](http://spacy.io/),
-a powerful (and super fast) NLP model.
+a powerful (and super fast) NLP library.
 
 ## Getting started
 Clone this repo from GitHub and open the directory, on a UNIX machine these actions will look like this.
