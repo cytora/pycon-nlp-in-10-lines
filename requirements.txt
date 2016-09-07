@@ -1,0 +1,4 @@
+spacy
+jupyter
+numpy
+matplotlib
