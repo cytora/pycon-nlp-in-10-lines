@@ -37,4 +37,8 @@ To run jupyter notebook run:
 
     jupyter notebook
 
-Tutorial notebook could be found in `tutorial.ipynb`.
+Tutorial notebook could be found in [`tutorial.ipynb`](tutorial.ipynb).
+
+## Common terms in NLP
+
+Todo
