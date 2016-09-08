@@ -41,4 +41,69 @@ Tutorial notebook could be found in [`tutorial.ipynb`](tutorial.ipynb).
 
 ## Common terms in NLP
 
-Todo
+#### Token
+
+A token is a single chopped up element of the sentence, which could be a word or a group of words to analyse. The task of chopping the sentence up is called "tokenisation".
+
+Example: The following sentence can be tokenised by splitting up the sentence into individual words
+
+	"Cytora is going to PyCon!"
+	["Cytora","is","going","to","PyCon"]
+
+#### Corpus
+
+A corpus (plural: corpora) is a large collection of text. A corpus might be built from transcribed speech or a large collection of documents. Corpora provide useful training data for NLP models. Each item in a corpus is not necessarily unique and frequency counts of words can assist in uncovering the structure behind a corpus.
+
+Examples:
+
+1. Every word written in the complete works of Shakespeare
+2. Every word spoken on BBC Radio channels for the past 30 years 
+
+#### Speech Tag
+
+A speech tag is a context sensitive description of what a word means in the context of the whole sentence.
+More information about the kinds of speech tags which are used in NLP can be [found here](http://www.winwaed.com/blog/2011/11/08/part-of-speech-tags/).
+
+Examples:
+
+1. CD, Cardinal Number - 1,2,3
+2. NNPS, Proper Noun, Singular - "John", "Andraz", "Cardiff"
+3. UH, Interjection - "Uhhhhhhhhhhh"
+
+#### Noun Chunk
+
+Noun chunks are the phrases based upon nouns recovered from tokenized text using the speech tags.
+
+Example:
+
+The sentence "The boy saw the yellow dog" has 2 noun objects, the boy and the dog. Therefore the noun chunks will be
+	1. "The boy"
+	2. "the yellow dog"
+
+#### Named Entities
+
+A named entity is any real world object such as a person, location, organisation or product with a proper name. 
+
+Example:
+
+	1. Barack Obama
+	2. Edinburgh
+	3. Ferrari Enzo
+
+#### Word Embeddings
+
+A word embedding is a representation of a word, and by extension whole language corpus, in a vector or other form of numerical mapping. This allows words to be treated numerically with word similarity and difference represented as spatial difference in the dimensions of the word embedding mapping.
+
+Example:
+	
+With word embeddings we can understand that vector operations describe word similarity. This means that we can see vector proofs of statements such as:
+	king - queen == man - woman
+
+
+#### Stop Words
+
+Stop words are the common words in a vocabulary which are of little value when considering word frequencies in text as they don't provide much useful information about what the sentence is telling the reader.
+
+Example: _"the","and","a","are","is"_
+
+
