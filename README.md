@@ -78,6 +78,7 @@ Example:
 
 The sentence "The boy saw the yellow dog" has 2 noun objects, the boy and the dog. 
 Therefore the noun chunks will be
+
 	1. "The boy"
 	2. "the yellow dog"
 
