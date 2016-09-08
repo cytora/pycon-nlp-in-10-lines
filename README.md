@@ -76,7 +76,9 @@ Noun chunks are the phrases based upon nouns recovered from tokenized text using
 
 Example:
 
-The sentence "The boy saw the yellow dog" has 2 noun objects, the boy and the dog. Therefore the noun chunks will be
+The sentence "The boy saw the yellow dog" has 2 noun objects, the boy and the dog. 
+Therefore the noun chunks will be
+
 	1. "The boy"
 	2. "the yellow dog"
 
@@ -92,17 +94,18 @@ Example:
 
 #### Word Embeddings
 
-A word embedding is a representation of a word, and by extension whole language corpus, in a vector or other form of numerical mapping. This allows words to be treated numerically with word similarity and difference represented as spatial difference in the dimensions of the word embedding mapping.
+A word embedding is a representation of a word, and by extension a whole language corpus, in a vector or other form of numerical mapping. This allows words to be treated numerically with word similarity represented as spatial difference in the dimensions of the word embedding mapping.
 
 Example:
 	
 With word embeddings we can understand that vector operations describe word similarity. This means that we can see vector proofs of statements such as:
+
 	king - queen == man - woman
 
 
 #### Stop Words
 
-Stop words are the common words in a vocabulary which are of little value when considering word frequencies in text as they don't provide much useful information about what the sentence is telling the reader.
+Stop words are the common words in a vocabulary which are of little value when considering word frequencies in text. This is because they don't provide much useful information about what the sentence is telling the reader.
 
 Example: _"the","and","a","are","is"_
 
