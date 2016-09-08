@@ -27,7 +27,7 @@ Or if you are using conda virtual environments then you will run
 
 To install all the required Python dependencies needed in this tutorial, you need to run this command in the cloned directory:
 
-    pip install .
+    pip install -r requirements.txt
 
 To install the spaCy model you need to run:
 
