@@ -15,12 +15,12 @@ Clone this repo from GitHub and open the directory, on a UNIX machine these acti
 	git clone git@github.com:cytora/pycon-nlp-in-10-lines.git
 	cd pycon-nlp-in-10-lines
 
-We recommend you to install all the dependencies in virtualenv, however this step could be skipped.
+We recommend you to install all the required dependencies in a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/stable/), however this step could be skipped.
 
     virtualenv -p python3 venv
     source venv/bin/activate
 
-Or if you are using conda virtual environments then you will run
+If you are using the Miniconda release of Python, you can use [conda virtual environments](http://conda.pydata.org/docs/using/envs.html) so your virtual environments will be slightly different.
 
 	conda create --name venv python=3
 	source activate venv
@@ -45,14 +45,14 @@ Tutorial notebook could be found in [`tutorial.ipynb`](tutorial.ipynb).
 
 A token is a single chopped up element of the sentence, which could be a word or a group of words to analyse. The task of chopping the sentence up is called "tokenisation".
 
-Example: The following sentence can be tokenised by splitting up the sentence into individual words
+Example: The following sentence can be tokenised by splitting up the sentence into individual words.
 
 	"Cytora is going to PyCon!"
-	["Cytora","is","going","to","PyCon"]
+	["Cytora","is","going","to","PyCon!"]
 
 #### Corpus
 
-A corpus (plural: corpora) is a large collection of text. A corpus might be built from transcribed speech or a large collection of documents. Corpora provide useful training data for NLP models. Each item in a corpus is not necessarily unique and frequency counts of words can assist in uncovering the structure behind a corpus.
+A corpus (plural: corpora) is a large collection of text or documents. A corpus might be built from transcribed speech or a collection of manuscripts. Corpora provide useful training data for NLP models. Each item in a corpus is not necessarily unique and frequency counts of words can assist in uncovering the structure in a corpus.
 
 Examples:
 
@@ -66,9 +66,9 @@ More information about the kinds of speech tags which are used in NLP can be [fo
 
 Examples:
 
-1. CD, Cardinal Number - 1,2,3
-2. NNPS, Proper Noun, Singular - "John", "Andraz", "Cardiff"
-3. UH, Interjection - "Uhhhhhhhhhhh"
+1. CARDINAL, Cardinal Number - 1,2,3
+2. PROPN, Proper Noun, Singular - "John", "Andraz", "Cardiff"
+3. INTJ, Interjection - "Uhhhhhhhhhhh"
 
 #### Noun Chunk
 
@@ -100,7 +100,7 @@ Example:
 	
 With word embeddings we can understand that vector operations describe word similarity. This means that we can see vector proofs of statements such as:
 
-	king - queen == man - woman
+	king-queen==man-woman
 
 
 #### Stop Words
