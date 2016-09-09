@@ -20,7 +20,7 @@ We recommend you to install all the required dependencies in a virtual environme
     virtualenv -p python3 venv
     source venv/bin/activate
 
-If you are using the Miniconda release of Python, you can use [conda virtual environments](http://conda.pydata.org/docs/using/envs.html) so your virtual environments will be slightly different.
+If you are using the Miniconda release of Python, you can use [conda virtual environments](http://conda.pydata.org/docs/using/envs.html) so your virtual environment setup will be slightly different. 
 
 	conda create --name venv python=3
 	source activate venv
@@ -52,7 +52,7 @@ Example: The following sentence can be tokenised by splitting up the sentence in
 
 #### Corpus
 
-A corpus (plural: corpora) is a large collection of text or documents. A corpus might be built from transcribed speech or a collection of manuscripts. Corpora provide useful training data for NLP models. Each item in a corpus is not necessarily unique and frequency counts of words can assist in uncovering the structure in a corpus.
+A corpus (plural: corpora) is a large collection of text or documents and can provide useful training data for NLP models. A corpus might be built from transcribed speech or a collection of manuscripts. Each item in a corpus is not necessarily unique and frequency counts of words can assist in uncovering the structure in a corpus.
 
 Examples:
 
