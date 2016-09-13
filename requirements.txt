@@ -2,3 +2,4 @@ spacy
 jupyter
 numpy
 matplotlib
+plotly
