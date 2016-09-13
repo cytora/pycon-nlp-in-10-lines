@@ -2,4 +2,5 @@ spacy
 jupyter
 numpy
 matplotlib
-plotly
+pandas
+seaborn
