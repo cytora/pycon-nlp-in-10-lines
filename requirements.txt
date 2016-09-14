@@ -2,3 +2,5 @@ spacy
 jupyter
 numpy
 matplotlib
+pandas
+seaborn
