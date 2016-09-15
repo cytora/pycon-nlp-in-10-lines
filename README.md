@@ -12,7 +12,7 @@ a powerful (and super fast) NLP library.
 ## Getting started
 Clone this repo from GitHub and open the directory, on a UNIX machine these actions will look like this.
 
-	git clone git@github.com:cytora/pycon-nlp-in-10-lines.git
+	git clone https://github.com/cytora/pycon-nlp-in-10-lines.git
 	cd pycon-nlp-in-10-lines
 
 We recommend you to install all the required dependencies in a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/stable/), however this step could be skipped.
