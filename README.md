@@ -37,5 +37,8 @@ To run jupyter notebook run:
 
     jupyter notebook
 
-The tutorial notebook for the workshop can  be found in [`tutorial.ipynb`](tutorial.ipynb) in the master branch.
+The tutorial has three parts:
+  * [00_spacy_intro.ipynb](00_spacy_intro.ipynb) - Introduction to spaCy
+  * [01_pride_and_predjudice.ipynb](01_pride_and_predjudice.ipynb) - Real text analysis (Pride & Predjudice)
+  * [02_rand_dataset](02_rand_dataset.ipynb) - Open task on RAND dataset
 
