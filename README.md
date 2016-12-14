@@ -1,7 +1,6 @@
 ### PyCon UK 2016 
 ![NLP in 10 Lines of Code](images/displacy_title.png)
 # Natural Language Processing in 10 Lines of Code
-##### from Andraz Hribernik, Matic Horvat, Aeneas Wiener, Tom Sherborne
 
 At [Cytora](http://www.cytora.com) we use NLP to extract and analyse plain text to build our structured information product.
 
