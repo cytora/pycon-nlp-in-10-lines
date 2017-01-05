@@ -38,6 +38,6 @@ To run jupyter notebook run:
 
 The tutorial has three parts:
   * [00_spacy_intro.ipynb](00_spacy_intro.ipynb) - Introduction to spaCy
-  * [01_pride_and_predjudice.ipynb](01_pride_and_predjudice.ipynb) - Real text analysis (Pride & Predjudice)
-  * [02_rand_dataset](02_rand_dataset.ipynb) - Open task on RAND dataset
+  * [01_pride_and_predjudice.ipynb](01_pride_and_predjudice.ipynb) - Real text analysis (Pride & Predjudice) ([blogpost](http://www.cytora.com/insights/2016/11/30/natural-language-processing-in-10-lines-of-code-part-1))
+  * [02_rand_dataset](02_rand_dataset.ipynb) - Open task on RAND dataset ([blogpost](http://www.cytora.com/insights/2017/1/3/natural-language-processing-in-10-lines-of-code-part-2))
 
